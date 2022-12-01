@@ -1,0 +1,4 @@
+FirstTest.LoremIpsumTest 6 0.000971817
+SecondTest.FourStringsTest 5 0.00122144
+ThirdTest.EmptyDocumentTest 7 0.0008586
+---

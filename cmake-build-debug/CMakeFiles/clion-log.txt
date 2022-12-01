@@ -1,0 +1,6 @@
+"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\osnovuprog\ISRPOlab5 -B C:\osnovuprog\ISRPOlab5\cmake-build-debug
+-- Could NOT find Python (missing: Python_EXECUTABLE Interpreter) 
+-- Configuring done
+CMake Error: CMake can not determine linker language for target: textreader
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.

@@ -1,0 +1,1 @@
+add_library(textreader TextReader.cpp)

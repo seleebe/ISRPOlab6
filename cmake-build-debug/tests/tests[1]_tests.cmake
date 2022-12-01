@@ -1,0 +1,7 @@
+add_test([=[FirstTest.LoremIpsumTest]=]  C:/osnovuprog/ISRPOlab5/cmake-build-debug/tests/tests.exe [==[--gtest_filter=FirstTest.LoremIpsumTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FirstTest.LoremIpsumTest]=]  PROPERTIES WORKING_DIRECTORY C:/osnovuprog/ISRPOlab5/cmake-build-debug/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[SecondTest.FourStringsTest]=]  C:/osnovuprog/ISRPOlab5/cmake-build-debug/tests/tests.exe [==[--gtest_filter=SecondTest.FourStringsTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[SecondTest.FourStringsTest]=]  PROPERTIES WORKING_DIRECTORY C:/osnovuprog/ISRPOlab5/cmake-build-debug/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[ThirdTest.EmptyDocumentTest]=]  C:/osnovuprog/ISRPOlab5/cmake-build-debug/tests/tests.exe [==[--gtest_filter=ThirdTest.EmptyDocumentTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ThirdTest.EmptyDocumentTest]=]  PROPERTIES WORKING_DIRECTORY C:/osnovuprog/ISRPOlab5/cmake-build-debug/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  tests_TESTS FirstTest.LoremIpsumTest SecondTest.FourStringsTest ThirdTest.EmptyDocumentTest)
